@@ -17,7 +17,6 @@ By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LS
 3. Project Structure
 
 3. Project Structure
-
 .
 ├── data/
 │   └── EMG-data.csv             # CSV file with EMG signals and labels
@@ -30,7 +29,6 @@ By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LS
 │   └── EMG_Gesture_Report.pdf   # Final report
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This README file
-
 
 4. Dataset Description
 
