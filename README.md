@@ -14,23 +14,22 @@ By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LS
 
 3. Project Structure
 
-├── data/ 
+3. Project Structure
 
-│   ├── EMG-data.csv             # Example CSV file with EMG signals and labels 
+3. Project Structure
 
-├── src/ 
-
-│   ├── dataset.py               # Custom PyTorch Dataset for EMG data 
-
-│   ├── model.py                 # CNN-LSTM model definition 
-
-│   ├── train.py                 # Training loop, validation, and logging metrics 
-
-│   └── evaluate.py              # Testing & evaluation script 
-
-├── requirements.txt             # Python dependencies  
-
-└── README.md                    # This README file 
+.
+├── data/
+│   └── EMG-data.csv             # CSV file with EMG signals and labels
+├── src/
+│   ├── dataset.py               # Custom PyTorch Dataset for EMG data
+│   ├── model.py                 # CNN-LSTM model definition
+│   ├── train.py                 # Training loop, validation, and logging metrics
+│   └── evaluate.py              # Testing & evaluation script
+├── report/
+│   └── EMG_Gesture_Report.pdf   # Final report
+├── requirements.txt             # Python dependencies
+└── README.md                    # This README file
 
 
 4. Dataset Description
