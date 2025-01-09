@@ -83,8 +83,7 @@ Each row in the raw EMG data file contains 11 columns:
 	•	Real-Time Inference: Optimize latency for real-time gesture control.
  ---
 
-## 8. Contact
-        For questions, suggestions, or collaborations, please contact:
+## 8. For questions, suggestions, or collaborations, please contact:
 	•	Name: Aleksei KUZNETSOV
 	•	Email: aleksei.kuznetsov@protonmail.com
  ---
