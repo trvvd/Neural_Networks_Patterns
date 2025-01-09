@@ -37,7 +37,7 @@ This project uses raw EMG data collected via a MYO Thalmic bracelet. The device 
 The bracelet has eight equally spaced EMG sensors around the forearm that simultaneously acquire myographic signals.
 A total of 36 subjects participated, each performing a series of static hand gestures twice. Each gesture lasted for approximately 3 seconds, with a 3-second pause between gestures.
 
-Columns in the Dataset
+**Columns in the Dataset**
 
 Each row in the raw EMG data file contains 11 columns:
 	1.	Time (in ms): Timestamp for the recorded signal.
@@ -58,8 +58,7 @@ Each row in the raw EMG data file contains 11 columns:
         	•	5: Radial deviation
          	•	6: Ulnar deviation
         	•	7: Extended palm (all subjects did not perform this gesture)
-
- 11.	Label (added manually): Identifies the subject who performed the gesture. There are 36 distinct subjects in total, each having performed 7 gestures twice.
+       11.	Label (added manually): Identifies the subject who performed the gesture. There are 36 distinct subjects in total, each having performed 7 gestures twice.
 	•	Data Source: The EMG-data.csv file contains multi-channel EMG recordings, associated labels (gestures or classes), and optional timestamps.
 	•	Preprocessing: Data is normalized using StandardScaler; additional feature engineering (e.g., windowing, filtering) can be applied if required.
 	•	Splits: Typically split into training, validation, and testing sets (70/15/15) using train_test_split.
