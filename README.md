@@ -1,17 +1,23 @@
-CNN-LSTM for EMG Gesture Classification
+# CNN-LSTM for EMG Gesture Classification
 
-1. Project Overview
+## 1. Project Overview
+This repository contains a **CNN-LSTM-based** approach to classifying **Electromyography (EMG)** signals. EMG signals measure the electrical activity of muscles and are widely used for **gesture recognition**, prosthetic control, and other biomedical applications. By combining **Convolutional Neural Networks (CNN)** with **Long Short-Term Memory (LSTM)** layers, this model captures both **spatial and temporal dependencies** in multi-channel EMG data.  
+For a more detailed description, see the report: **EMG_Gesture_Report.pdf**.
 
-This repository contains a CNN-LSTM-based approach to classifying Electromyography (EMG) signals. EMG signals measure the electrical activity of muscles and are widely used for gesture recognition, prosthetic control, and other biomedical applications.  By combining Convolutional Neural Networks (CNN) with Long Short-Term Memory (LSTM) layers,this model captures both spatial and temporal dependencies in multi-channel EMG data. For a more detailed description, see the report (EMG_Gesture_Report.pdf).
+---
 
-2. Key Features
-	•	Multi-Channel Input: Handles multiple EMG channels.
-	•	CNN+LSTM Architecture: CNN extracts spatial features, while LSTM processes temporal patterns.
-	•	Configurable Hyperparameters: Easily adjust hidden sizes, number of layers, dropout rates, and learning rate.
-	•	Training & Evaluation Pipeline: Includes training loop, validation, and testing with metrics (Accuracy, F1-Score, Precision, Recall).
-	•	Visualization: Plots training loss, validation accuracy, and confusion matrix for model performance analysis.
+## 2. Key Features
+- **Multi-Channel Input**: Handles multiple EMG channels.  
+- **CNN+LSTM Architecture**: CNN extracts spatial features, while LSTM processes temporal patterns.  
+- **Configurable Hyperparameters**: Easily adjust hidden sizes, number of layers, dropout rates, and learning rate.  
+- **Training & Evaluation Pipeline**: Includes training loop, validation, and testing with metrics (Accuracy, F1-Score, Precision, Recall).  
+- **Visualization**: Plots training loss, validation accuracy, and confusion matrix for model performance analysis.
 
-3. Project Structure
+---
+
+## 3. Project Structure
+
+```text
 .
 ├── data/
 │   └── EMG-data.csv             # CSV file with EMG signals and labels
