@@ -1,8 +1,7 @@
 # CNN-LSTM for EMG Gesture Classification
 
 ## 1. Project Overview
-This repository contains a **CNN-LSTM-based** approach to classifying **Electromyography (EMG)** signals. EMG signals measure the electrical activity of muscles and are widely used for **gesture recognition**, prosthetic control, and other biomedical applications. By combining **Convolutional Neural Networks (CNN)** with **Long Short-Term Memory (LSTM)** layers, this model captures both **spatial and temporal dependencies** in multi-channel EMG data.  
-For a more detailed description, see the report: **EMG_Gesture_Report.pdf**.
+This repository contains a **CNN-LSTM-based** approach to classifying **Electromyography (EMG)** signals. EMG signals measure the electrical activity of muscles and are widely used for **gesture recognition**, prosthetic control, and other biomedical applications. By combining **Convolutional Neural Networks (CNN)** with **Long Short-Term Memory (LSTM)** layers, this model captures both **spatial and temporal dependencies** in multi-channel EMG data. For a more detailed description, see the report: **EMG_Gesture_Report.pdf**.
 
 ---
 
@@ -17,7 +16,6 @@ For a more detailed description, see the report: **EMG_Gesture_Report.pdf**.
 
 ## 3. Project Structure
 
-```text
 .
 ├── data/
 │   └── EMG-data.csv             # CSV file with EMG signals and labels
@@ -30,7 +28,9 @@ For a more detailed description, see the report: **EMG_Gesture_Report.pdf**.
 │   └── EMG_Gesture_Report.pdf   # Final report
 └── README.md                    # This README file
 
-4. Dataset Description
+---
+
+## 4. Dataset Description
 
 This project uses raw EMG data collected via a MYO Thalmic bracelet. The device is worn on a user’s forearm and communicates over Bluetooth to a PC. 
 The bracelet has eight equally spaced EMG sensors around the forearm that simultaneously acquire myographic signals.
