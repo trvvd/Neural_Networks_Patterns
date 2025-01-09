@@ -15,7 +15,7 @@ This repository contains a **CNN-LSTM-based** approach to classifying **Electrom
 ---
 
 ## 3. Project Structure
-
+```text
 .
 ├── data/
 │   └── EMG-data.csv             # CSV file with EMG signals and labels
@@ -28,6 +28,7 @@ This repository contains a **CNN-LSTM-based** approach to classifying **Electrom
 │   └── EMG_Gesture_Report.pdf   # Final report
 └── README.md                    # This README file
 
+```
 ---
 
 ## 4. Dataset Description
@@ -58,36 +59,41 @@ Each row in the raw EMG data file contains 11 columns:
          	•	6: Ulnar deviation
         	•	7: Extended palm (all subjects did not perform this gesture)
 
-  11.	Label (added manually): Identifies the subject who performed the gesture. There are 36 distinct subjects in total, each having performed 7 gestures twice.
+ 11.	Label (added manually): Identifies the subject who performed the gesture. There are 36 distinct subjects in total, each having performed 7 gestures twice.
 	•	Data Source: The EMG-data.csv file contains multi-channel EMG recordings, associated labels (gestures or classes), and optional timestamps.
 	•	Preprocessing: Data is normalized using StandardScaler; additional feature engineering (e.g., windowing, filtering) can be applied if required.
 	•	Splits: Typically split into training, validation, and testing sets (70/15/15) using train_test_split.
 
-5. Requirements
+## 5. Requirements
 	•	Python 3.11+
 	•	PyTorch (>= 2.1)
 	•	scikit-learn (>= 0.24)
 	•	pandas, numpy, matplotlib
+ ---
 
-6. Results / Model Performance:
+## 6. Results / Model Performance:
 	•	Validation Accuracy: ~92%
 	•	Validation F1-Score: ~88%
 	•	Test Accuracy: ~90–92%
+ ---
 
-7. Future Work
+## 7. Future Work
 	•	Hyperparameter Tuning: Automate search with libraries like Optuna or Ray Tune.
 	•	Data Augmentation: Use overlapping windows, synthetic augmentation to handle limited data.
 	•	Advanced Architectures: Experiment with GRUs, Transformers, or attention mechanisms.
 	•	Real-Time Inference: Optimize latency for real-time gesture control.
+ ---
 
-8. Contact
+## 8. Contact
 For questions, suggestions, or collaborations, please contact:
 	•	Name: Aleksei KUZNETSOV
 	•	Email: aleksei.kuznetsov@protonmail.com
+ ---
 
-Acknowledgements:
+## Acknowledgements:
         •	UCI Machine Learning Repository: We extend our gratitude to the team and researchers who collected and shared this dataset.
 	•	Contributors: Thank you to all the volunteers (36 subjects) who provided EMG recordings for this research.
+ ---
 
 For more information, refer to the original dataset page:
 https://archive.ics.uci.edu/ml/datasets/EMG+data+for+gestures
